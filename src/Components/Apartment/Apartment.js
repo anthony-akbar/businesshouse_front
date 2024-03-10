@@ -11,7 +11,7 @@ class Apartment extends Component {
     }
 
     componentDidMount() {
-        axios.get("http://192.168.100.11:8000/api/apartment/").then((res) => {
+        axios.get("http://admin.businesshouse.kg/api/apartment/").then((res) => {
             console.log(res.data)
             this.setState({data: res.data})
             if (res.data.next) {
