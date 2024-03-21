@@ -52,13 +52,13 @@ class Nabvar extends Component {
                                     </div>
                                 </div>
                                 <div className="main-menu__main-menu-box">
-                                    <a  className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
+                                    <a href="index.html" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
                                     <ul className="main-menu__list">
                                         <li className="dropdown current">
                                             <a href="/">Главная</a>
                                         </li>
                                         <li>
-                                            <a href="">О нас</a>
+                                            <a href="index.html">О нас</a>
                                         </li>
                                         <li className="dropdown">
                                             <a href="index.html">Объекты</a>
@@ -82,8 +82,7 @@ class Nabvar extends Component {
                                 <div className="main-menu__right">
                                     <div className="main-menu__search-btn-box">
                                         <div className="main-menu__search-box">
-                                            <a 
-                                               className="main-menu__search search-toggler icon-magnifying-glass"></a>
+                                            <a href="index.html" className="main-menu__search search-toggler icon-magnifying-glass"></a>
                                         </div>
                                         <div className="main-menu__btn-box">
                                             <a href="tel:0558222333" className="thm-btn main-menu__btn">Связаться</a>

@@ -95,8 +95,7 @@ class Footer extends Component {
                             <div className="row">
                                 <div className="col-xl-12">
                                     <div className="site-footer__bottom-inner">
-                                        <p className="site-footer__bottom-text">© All Copyright 2022 by <a
-                                            >Aports.com</a>
+                                        <p className="site-footer__bottom-text">© All Copyright 2022 by <a href="inedx.html">Aports.com</a>
                                         </p>
                                     </div>
                                 </div>
