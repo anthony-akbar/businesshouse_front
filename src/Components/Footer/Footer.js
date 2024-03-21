@@ -20,9 +20,9 @@ class Footer extends Component {
                                                     modern and luxury residential life around the world.</p>
                                             </div>
                                             <div className="site-footer__social">
-                                                <a href="#"><i className="fab fa-twitter"></i></a>
-                                                <a href="#"><i className="fab fa-facebook"></i></a>
-                                                <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                                                <a><i className="fab fa-twitter"></i></a>
+                                                <a><i className="fab fa-facebook"></i></a>
+                                                <a><i className="fab fa-pinterest-p"></i></a>
                                                 <a href="https://facebook.com"><i className="fab fa-instagram"></i></a>
                                             </div>
                                         </div>
@@ -96,7 +96,7 @@ class Footer extends Component {
                                 <div className="col-xl-12">
                                     <div className="site-footer__bottom-inner">
                                         <p className="site-footer__bottom-text">© All Copyright 2022 by <a
-                                            href="#">Aports.com</a>
+                                            >Aports.com</a>
                                         </p>
                                     </div>
                                 </div>

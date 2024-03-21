@@ -33,9 +33,9 @@ class Nabvar extends Component {
                                     <p>9:00 - 18:00 без выходных</p>
                                 </div>
                                 <div className="main-header__social">
-                                    {/*<a href="#"><i className="fab fa-twitter"></i></a>*/}
-                                    {/*<a href="#"><i className="fab fa-facebook"></i></a>*/}
-                                    {/*<a href="#"><i className="fab fa-pinterest-p"></i></a>*/}
+                                    {/*<a ><i className="fab fa-twitter"></i></a>*/}
+                                    {/*<a ><i className="fab fa-facebook"></i></a>*/}
+                                    {/*<a ><i className="fab fa-pinterest-p"></i></a>*/}
                                     <a href="https://www.instagram.com/businesshouse.kg1/"><i
                                         className="fab fa-instagram"></i></a>
                                 </div>
@@ -52,7 +52,7 @@ class Nabvar extends Component {
                                     </div>
                                 </div>
                                 <div className="main-menu__main-menu-box">
-                                    <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
+                                    <a  className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
                                     <ul className="main-menu__list">
                                         <li className="dropdown current">
                                             <a href="/">Главная</a>
@@ -61,14 +61,14 @@ class Nabvar extends Component {
                                             <a href="">О нас</a>
                                         </li>
                                         <li className="dropdown">
-                                            <a href="#">Объекты</a>
+                                            <a >Объекты</a>
                                             <ul className="shadow-box">
                                                 <li><a href="apartments.html">Apartments</a></li>
                                                 <li><a href="apartment-details.html">Apartment Details</a></li>
                                             </ul>
                                         </li>
                                         <li className="dropdown">
-                                            <a href="#">Новости</a>
+                                            <a >Новости</a>
                                             <ul className="shadow-box">
                                                 <li><a href="news.html">News</a></li>
                                                 <li><a href="news-details.html">News Details</a></li>
@@ -82,7 +82,7 @@ class Nabvar extends Component {
                                 <div className="main-menu__right">
                                     <div className="main-menu__search-btn-box">
                                         <div className="main-menu__search-box">
-                                            <a href="#"
+                                            <a 
                                                className="main-menu__search search-toggler icon-magnifying-glass"></a>
                                         </div>
                                         <div className="main-menu__btn-box">

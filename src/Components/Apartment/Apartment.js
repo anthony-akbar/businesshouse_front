@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import SliderItem from "../Slider/SliderItem";
 import axios from "axios";
 import ApartmentItem from "./ApartmentItem";
 
