@@ -20,9 +20,9 @@ class Footer extends Component {
                                                     modern and luxury residential life around the world.</p>
                                             </div>
                                             <div className="site-footer__social">
-                                                <a><i className="fab fa-twitter"></i></a>
-                                                <a><i className="fab fa-facebook"></i></a>
-                                                <a><i className="fab fa-pinterest-p"></i></a>
+                                                <a href="index.html"><i className="fab fa-twitter"></i></a>
+                                                <a href="index.html"><i className="fab fa-facebook"></i></a>
+                                                <a href="index.html"><i className="fab fa-pinterest-p"></i></a>
                                                 <a href="https://facebook.com"><i className="fab fa-instagram"></i></a>
                                             </div>
                                         </div>

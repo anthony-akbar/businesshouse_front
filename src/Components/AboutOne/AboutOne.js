@@ -73,7 +73,7 @@ class AboutOne extends Component {
                                         </div>
                                     </li>
                                 </ul>
-                                <a  class="thm-btn about-one__btn">Подробнее</a>
+                                <a href="/" class="thm-btn about-one__btn">Подробнее</a>
                             </div>
                         </div>
                     </div>

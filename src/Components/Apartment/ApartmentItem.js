@@ -13,14 +13,14 @@ class ApartmentItem extends Component {
                             objectFit: 'cover',
                             objectPosition: '50% 50%'}}/>
                         <div className="apartments-one__title-box">
-                            <h3 className="apartments-one__title"><a >{title}</a></h3>
+                            <h3 className="apartments-one__title"><a href="index.html">{title}</a></h3>
                         </div>
                         <div className="apartments-one__hover">
-                            <h3 className="apartments-one__hover-title"><a >{title}</a>
+                            <h3 className="apartments-one__hover-title"><a href="index.html">{title}</a>
                             </h3>
                             <p className="apartments-one__hover-text">{description}</p>
                             <div className="apartments-one__arrow">
-                                <a ><span className="icon-right-arrow"></span></a>
+                                <a href="index.html"><span className="icon-right-arrow"></span></a>
                             </div>
                         </div>
                     </div>

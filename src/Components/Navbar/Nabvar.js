@@ -33,9 +33,9 @@ class Nabvar extends Component {
                                     <p>9:00 - 18:00 без выходных</p>
                                 </div>
                                 <div className="main-header__social">
-                                    {/*<a ><i className="fab fa-twitter"></i></a>*/}
-                                    {/*<a ><i className="fab fa-facebook"></i></a>*/}
-                                    {/*<a ><i className="fab fa-pinterest-p"></i></a>*/}
+                                    {/*<a href="index.html"><i className="fab fa-twitter"></i></a>*/}
+                                    {/*<a href="index.html"><i className="fab fa-facebook"></i></a>*/}
+                                    {/*<a href="index.html"><i className="fab fa-pinterest-p"></i></a>*/}
                                     <a href="https://www.instagram.com/businesshouse.kg1/"><i
                                         className="fab fa-instagram"></i></a>
                                 </div>
@@ -61,14 +61,14 @@ class Nabvar extends Component {
                                             <a href="">О нас</a>
                                         </li>
                                         <li className="dropdown">
-                                            <a >Объекты</a>
+                                            <a href="index.html">Объекты</a>
                                             <ul className="shadow-box">
                                                 <li><a href="apartments.html">Apartments</a></li>
                                                 <li><a href="apartment-details.html">Apartment Details</a></li>
                                             </ul>
                                         </li>
                                         <li className="dropdown">
-                                            <a >Новости</a>
+                                            <a href="index.html">Новости</a>
                                             <ul className="shadow-box">
                                                 <li><a href="news.html">News</a></li>
                                                 <li><a href="news-details.html">News Details</a></li>
