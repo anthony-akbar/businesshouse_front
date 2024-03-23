@@ -10,7 +10,7 @@ class Slider extends Component {
     }
 
     componentDidMount() {
-        axios.get("http://admin.businesshouse.kg/api/slider/").then((res) => {
+        axios.get("https://admin.businesshouse.kg/api/slider/").then((res) => {
             console.log(res.data)
             this.setState({data: res.data})
             if (res.data.next) {
