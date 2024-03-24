@@ -52,7 +52,7 @@ class Nabvar extends Component {
                                     </div>
                                 </div>
                                 <div className="main-menu__main-menu-box">
-                                    <a href="index.html" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
+                                    <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
                                     <ul className="main-menu__list">
                                         <li className="dropdown current">
                                             <a href="/">Главная</a>
