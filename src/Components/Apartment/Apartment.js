@@ -10,8 +10,7 @@ class Apartment extends Component {
     }
 
     componentDidMount() {
-        axios.get("http://admin.businesshouse.kg/api/apartment/").then((res) => {
-            console.log(res.data)
+        axios.get( process.env.REACT_APP_SERVER_URL + "/api/apartment/").then((res) => {
             this.setState({data: res.data})
             if (res.data.next) {
                 axios.get(res.data.next).then((ress) => {
@@ -20,8 +19,6 @@ class Apartment extends Component {
                     })
                 })
             }
-        }).then(() => {
-            console.log(this.state.data)
         })
     }
 

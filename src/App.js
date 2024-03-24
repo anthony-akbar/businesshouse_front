@@ -10,7 +10,6 @@ import FloorPlan from "./Components/FloorPlan/FloorPlan";
 
 function App() {
 
-
     return (
         <div>
 
