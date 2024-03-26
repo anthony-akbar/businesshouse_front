@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 
 class Nabvar extends Component {
     render() {
@@ -36,8 +37,8 @@ class Nabvar extends Component {
                                     {/*<a href="index.html"><i className="fab fa-twitter"></i></a>*/}
                                     {/*<a href="index.html"><i className="fab fa-facebook"></i></a>*/}
                                     {/*<a href="index.html"><i className="fab fa-pinterest-p"></i></a>*/}
-                                    <a href="https://www.instagram.com/businesshouse.kg1/"><i
-                                        className="fab fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/businesshouse.kg1/">
+                                        <i className="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -47,25 +48,22 @@ class Nabvar extends Component {
                             <div className="main-menu__wrapper-inner">
                                 <div className="main-menu__left">
                                     <div className="main-menu__logo">
-                                        <a href="/"><img style={{maxWidth: '250px'}}
-                                                         src="assets/images/resources/logo-1.png" alt="Logo"/></a>
+                                        <Link to="/">
+                                            <img style={{maxWidth: '130px'}} src={'assets/images/resources/logo-1.png'} alt="Logo"/>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="main-menu__main-menu-box">
                                     <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
                                     <ul className="main-menu__list">
                                         <li className="dropdown current">
-                                            <a href="/">Главная</a>
+                                            <Link to="/">Главная</Link>
                                         </li>
                                         <li>
-                                            <a href="index.html">О нас</a>
+                                            <Link to="/about">О нас</Link>
                                         </li>
                                         <li className="dropdown">
-                                            <a href="index.html">Объекты</a>
-                                            <ul className="shadow-box">
-                                                <li><a href="apartments.html">Apartments</a></li>
-                                                <li><a href="apartment-details.html">Apartment Details</a></li>
-                                            </ul>
+                                            <Link to="/apartment">Объекты</Link>
                                         </li>
                                         <li className="dropdown">
                                             <a href="index.html">Новости</a>
